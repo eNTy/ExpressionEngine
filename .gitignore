@@ -1,4 +1,6 @@
 *.suo
-
 *.cache
+*.pdb
 *.cache
+ExpressionEngine/bin/
+ExpressionEngine/obj/

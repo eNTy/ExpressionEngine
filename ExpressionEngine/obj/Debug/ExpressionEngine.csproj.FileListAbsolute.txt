@@ -1,5 +1,0 @@
-F:\Temp\ExpressionEngine\MARS.ExpressionEngine\bin\Debug\ExpressionEngine.dll
-F:\Temp\ExpressionEngine\MARS.ExpressionEngine\bin\Debug\ExpressionEngine.pdb
-F:\Temp\ExpressionEngine\MARS.ExpressionEngine\obj\Debug\ResolveAssemblyReference.cache
-F:\Temp\ExpressionEngine\MARS.ExpressionEngine\obj\Debug\ExpressionEngine.dll
-F:\Temp\ExpressionEngine\MARS.ExpressionEngine\obj\Debug\ExpressionEngine.pdb

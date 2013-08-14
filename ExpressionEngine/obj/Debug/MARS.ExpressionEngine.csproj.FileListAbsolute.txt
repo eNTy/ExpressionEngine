@@ -1,5 +1,0 @@
-H:\projects\MARS.Support\MARS.ExpressionEngine\MARS.ExpressionEngine\bin\Debug\MARS.ExpressionEngine.dll
-H:\projects\MARS.Support\MARS.ExpressionEngine\MARS.ExpressionEngine\bin\Debug\MARS.ExpressionEngine.pdb
-H:\projects\MARS.Support\MARS.ExpressionEngine\MARS.ExpressionEngine\obj\Debug\ResolveAssemblyReference.cache
-H:\projects\MARS.Support\MARS.ExpressionEngine\MARS.ExpressionEngine\obj\Debug\MARS.ExpressionEngine.dll
-H:\projects\MARS.Support\MARS.ExpressionEngine\MARS.ExpressionEngine\obj\Debug\MARS.ExpressionEngine.pdb
