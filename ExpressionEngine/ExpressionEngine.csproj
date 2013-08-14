@@ -11,7 +11,7 @@
     <RootNamespace>ExpressionEngine</RootNamespace>
     <AssemblyName>ExpressionEngine</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
-    <FileAlignment>512</FileAlignment>  
+    <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -64,6 +64,15 @@
     <Compile Include="ExpressionFactory.cs" />
     <Compile Include="Modifiers\SqlCompareModifier.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Samples\Evaluate.cs" />
+    <Compile Include="Samples\FieldBuilder.cs" />
+    <Compile Include="Samples\ObjectFieldBuilder.cs" />
+    <Compile Include="Samples\Program.cs" />
+    <Compile Include="Samples\UserFieldBuilder.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Samples\RowLevelSecurity.xml" />
+    <Content Include="Samples\RowLevelSecurityEval.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

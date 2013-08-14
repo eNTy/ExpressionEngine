@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ExpressionCollection>
+	<ExpressionTree name="Proposals">
+		<Parameters>
+			<Parameter name="eObject" type="System.Data.DataRow, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+			<Parameter name="eUser" type="DataLayer.Employee, DataLayer" />
+		</Parameters>
+		<Expression>
+			<Or>
+				<Left>
+					<!-- engagement partner sees all-->
+					<UserField name="IsEngtPartner" type="System.Boolean" />
+				</Left>
+				<Right>
+					<Or>
+						<Left>
+							<And>
+								<Left>
+									<Column name="Confidential" type="System.Boolean">
+										<ParameterRef name="eObject" />
+									</Column>
+								</Left>
+								<Right>
+									<Equals>
+										<Left>
+											<Column name="cBY" type="System.Int32">
+												<ParameterRef name="eObject" />
+											</Column>
+										</Left>
+										<Right>
+											<UserField name="IdEmployee" type="System.Int32" />
+										</Right>
+									</Equals>
+								</Right>
+							</And>
+						</Left>
+						<Right>
+							<And>
+								<Left>
+									<Not>
+										<Column name="Confidential" type="System.Boolean">
+											<ParameterRef name="eObject" />
+										</Column>
+									</Not>
+								</Left>
+								<Right>
+								<Equals>
+									<Left>
+										<Column name="Function" type="System.Int32">
+											<ParameterRef name="eObject" />
+										</Column>
+									</Left>
+									<Right>
+										<UserField name="Function" type="System.Int32" />
+									</Right>									
+								</Equals>
+								</Right>
+							</And>
+						</Right>
+					</Or>
+				</Right>
+			</Or>
+		</Expression>
+	</ExpressionTree>
+</ExpressionCollection>

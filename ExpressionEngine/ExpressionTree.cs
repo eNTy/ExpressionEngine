@@ -114,8 +114,8 @@ namespace ExpressionEngine
             _evaluationMethod = _evaluationLambda.Compile();
 
             // create eval function
-            //Func<EmsObjectBase, Employee, bool> evaluation =
-            //    Expression.Lambda<Func<EmsObjectBase, Employee, bool>>(rootExpression, parameters).Compile();
+            //Func<EObjectBase, Employee, bool> evaluation =
+            //    Expression.Lambda<Func<EObjectBase, Employee, bool>>(rootExpression, parameters).Compile();
 
             //bool result = evaluation(objectToCheck, currentUser);
         }

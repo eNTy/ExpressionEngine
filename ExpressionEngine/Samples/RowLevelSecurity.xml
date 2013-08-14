@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ExpressionCollection>
+	<ExpressionTree name="Proposals">
+		<Parameters>
+			<Parameter name="eObject" type="System.Data.DataRow, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+		</Parameters>
+		<Expression>
+			<True />
+		</Expression>
+	</ExpressionTree>
+</ExpressionCollection>
